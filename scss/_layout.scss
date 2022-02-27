@@ -1,0 +1,40 @@
+body{
+    background: $light-gray;
+    font-family: $font-stack;
+    font-size: 15px;
+    color: $grayish-blue;
+    font-weight: 400;
+}
+
+#wrapper{
+    background: white;
+    height: 550px;
+    width: 300px;
+    margin:auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    @media (min-width:$mobile) {
+        margin-top: 80px;
+    }
+}
+
+#qr{
+    height: 300px;
+    width: 300px;
+    object-fit: fill;
+    margin: auto;
+    border-radius: 15px;
+
+}
+
+
+#text-wrapper{
+    margin:20px 45px;
+    text-align: center;
+}
+
+.attribution{
+    position:absolute;
+    bottom:0;
+}
